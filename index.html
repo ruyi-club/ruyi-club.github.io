@@ -3,17 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>安全連線中...</title>
+  <title>如意樓-spa 會館｜安全連線中...</title>
   <style>
     body{background:#0f172a;color:#e2e8f0;font-family:sans-serif;display:flex;justify-content:center;align-items:center;height:100vh;margin:0}
     .loader{border:3px solid rgba(255,255,255,.1);border-top-color:#06b6d4;border-radius:50%;width:40px;height:40px;animation:spin 1s linear infinite;margin:0 auto 15px}
     @keyframes spin{to{transform:rotate(360deg)}}
+    .brand{font-size:22px;letter-spacing:2px;color:#e2e8f0;margin:0 0 18px}
     .text{font-size:14px;letter-spacing:2px;color:#94a3b8;text-align:center}
     .open-btn{display:none;margin:20px auto 0;padding:14px 32px;background:linear-gradient(135deg,#06b6d4,#0891b2);color:#fff;border:none;border-radius:12px;font-size:16px;font-weight:bold;cursor:pointer;letter-spacing:1px;text-decoration:none}
   </style>
 </head>
 <body>
   <div style="text-align:center">
+    <h1 class="brand">如意樓-spa 會館</h1>
     <div class="loader" id="spinner"></div>
     <div class="text" id="statusText">正在建立安全連線...</div>
     <a class="open-btn" id="openBtn" href="https://ruyi-club.nightowlowl.workers.dev/">👆 點擊開啟</a>
